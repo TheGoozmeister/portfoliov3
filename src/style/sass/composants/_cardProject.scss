@@ -1,0 +1,22 @@
+.cardProject {
+    width: 500px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    @include smartphone {
+        width: 100%;
+        margin: 10px 0px 10px 0px;
+        border-radius: 0;
+    }
+    &__content__description {
+        margin-bottom: 20px;
+    }
+}

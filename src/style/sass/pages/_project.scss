@@ -1,0 +1,89 @@
+.project {
+    &__title {
+        text-align: center;
+        margin-top: 100px;
+        font-size: 2rem;
+        font-weight: 700;
+        background-color: $color-primary;
+        color: white;
+        padding: 10px 20px;
+        @include smartphone{
+            font-size: 1.5rem;
+            padding: 5px 10px;
+        }
+
+    }
+    &__content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 40px;
+        padding: 0 100px;
+        @include smartphone{
+            flex-direction: column;
+            padding: 0 20px;
+        }
+    }
+    &__text {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        @include smartphone{
+            width: 100%;
+            text-align: center;
+        }
+    }
+    &__description {
+        margin-bottom: 30px;
+        font-weight: 600;
+        font-size: 1.2rem;
+        @include smartphone{
+            font-size: 1.3rem;
+        }
+    }
+    &__summary {
+        margin-bottom: 20px;
+        @include smartphone{
+            font-size: 1rem;
+        }
+    }
+    &__technosAndTools {
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: row;
+        width: 70%;
+        justify-content: space-between;
+        @include smartphone{
+            width: 100%;
+        }
+    }
+    &__technos__title, &__tools__title {  
+        font-weight: 600;
+        font-size: 1.2rem;
+        color: $color-primary;
+        margin-bottom: 10px;
+        @include smartphone{
+            font-size: 1.1rem;
+        }
+    }
+    & button {
+        @include smartphone{
+            width: 70%;
+        }
+    }
+    &__images {
+        width: 40%;
+        border-radius: 20px;
+        @include smartphone{
+            width: 100%;
+            margin-top: 20px;
+        }
+        & img {
+            object-fit: cover;
+            border-radius: 20px;
+            width: 100%;
+        }
+    }
+}
