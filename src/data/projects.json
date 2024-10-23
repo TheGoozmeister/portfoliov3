@@ -1,34 +1,34 @@
 [
-    {
-        "id": 1,
-        "title": "Télécommande Luminaires BLE",
-        "cover": "ble.png",
-        "description": {
-            "eng" : "Full-stack application for event organization",
-            "fr": "Application fullstack d'oranisation d'évènements"
-        },
-        "technos": [
-            "HTML/CSS",
-            "JAVASCRIPT",
-            "REACT",
-            "NODEJS",
-            "EXPRESS",
-            "MYSQL"
-        ],
-        "tools": [
-            "GIT",
-            "SASS",
-            "SILICIUM",
-            "FIGMA",
-            "DOCKER",
-            "REDUX"
-        ],
-        "summary": {
-            "eng" : "Béber is a mobile-first application designed to assist in event organization. It allows multiple users to create and join events, suggest accommodations using links from platforms like Airbnb, and vote on the stay location. The frontend is built with React, the backend with Node.js, and the database with MySQL. Docker was used for deploying the first test version.",
-            "fr": "Béber est une application mobilefirst accompagnatrice d'organisation d'évènements. Elle permet à plusieurs personnes de créer et de rejoindre un évènement, de proposer des logements à partir de liens d'annonces type airbnb, et de voter pour le lieu de séjour. Le front est en React, le back en NodeJS, la base de données en MYSQL. Docker a été utilisé pour le déploiement de la première version de test."
-        },
-        "projectLink" : "https://github.com/TheGoozmeister/b-ber"
-    },
+    // {
+    //     "id": 1,
+    //     "title": "Télécommande Luminaires BLE",
+    //     "cover": "ble.png",
+    //     "description": {
+    //         "eng" : "Full-stack application for event organization",
+    //         "fr": "Application fullstack d'oranisation d'évènements"
+    //     },
+    //     "technos": [
+    //         "HTML/CSS",
+    //         "JAVASCRIPT",
+    //         "REACT",
+    //         "NODEJS",
+    //         "EXPRESS",
+    //         "MYSQL"
+    //     ],
+    //     "tools": [
+    //         "GIT",
+    //         "SASS",
+    //         "SILICIUM",
+    //         "FIGMA",
+    //         "DOCKER",
+    //         "REDUX"
+    //     ],
+    //     "summary": {
+    //         "eng" : "Béber is a mobile-first application designed to assist in event organization. It allows multiple users to create and join events, suggest accommodations using links from platforms like Airbnb, and vote on the stay location. The frontend is built with React, the backend with Node.js, and the database with MySQL. Docker was used for deploying the first test version.",
+    //         "fr": "Béber est une application mobilefirst accompagnatrice d'organisation d'évènements. Elle permet à plusieurs personnes de créer et de rejoindre un évènement, de proposer des logements à partir de liens d'annonces type airbnb, et de voter pour le lieu de séjour. Le front est en React, le back en NodeJS, la base de données en MYSQL. Docker a été utilisé pour le déploiement de la première version de test."
+    //     },
+    //     "projectLink" : "https://github.com/TheGoozmeister/b-ber"
+    // },
     {
         "id": 1,
         "title": "Beber",
