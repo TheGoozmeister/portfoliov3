@@ -14,7 +14,7 @@ function Landing () : JSX.Element {
             <div className="landing__title" id='home'>
                 <h1>Concepteur Développeur d'Applications Full Stack</h1>
                 <div className="landing__title__text">
-                    Coder des solutions simples à des problématiques complexes.
+                    Coder des solutions simples pour des problématiques complexes.
                 </div>
                 <div className="landing__title__image">
                     <img src={photo} alt="portrait" />
@@ -77,7 +77,8 @@ function Landing () : JSX.Element {
                         <ul>
                             <li>NodeJS</li>
                             <li>Express</li>
-                            <li>Python</li>
+                            <li>Django</li>
+                            <li>PHP</li>
                             <li>PostgreSQL</li>
                             <li>MySQL</li>
                             <li>MongoDB</li>
@@ -99,15 +100,14 @@ function Landing () : JSX.Element {
                     </div>
                     <div className="landing__skills__section__list">
                         <ul>
-                            <li>Notion</li>
                             <li>Git/Github</li>
                             <li>Docker</li>
                             <li>Figma</li>
                             <li>Capacitor</li>
-                            <li>IA</li>
                             <li>Linux</li>
                             <li>Bluetooth/Bluetooth Low Energy</li>
                             <li>Wifi Direct</li>
+                            <li>IA</li>
                         </ul>
                     </div>
                 </div>
@@ -119,7 +119,7 @@ function Landing () : JSX.Element {
                         <h3>Soft Skills</h3>
                     </div>
                     <div className="landing__skills__section__description">
-                        Au travers de mes différentes expériences professionnelles et personnelles, j'ai développé des compétences individuelles et collectives qui me permettet d'être un élément pertinent au sein d'une équipe.
+                        Au travers de mes différentes expériences professionnelles et personnelles, j'ai développé des compétences individuelles et collectives qui me permettent d'être un élément pertinent au sein d'une équipe.
                     </div>
                     <div className="landing__skills__section__listTitle">
                         <h4>Compétences</h4>
@@ -143,7 +143,7 @@ function Landing () : JSX.Element {
                     <h2>Mes projets récents</h2>
                 </div>
                 <div className="landing__projects__text">
-                    Voici quelques un des derniers projets sur lesquels j'ai travaillés. Vous voulez en voir plus ? 
+                    Voici quelques projets que j'ai réalisés. Vous voulez en voir plus ? 
                     <a href="mailto:vincent.pastor.pro@gmail.com" id="contactMe"> Contactez moi !</a>                </div>
                 <div className="landing__projects__list">
                 {projects.slice(0, 6).map((project) => (
@@ -163,7 +163,7 @@ function Landing () : JSX.Element {
                     <h2>Contactez-moi</h2>
                 </div>
                 <div className="landing__contact__text">
-                    Envie de travailler ensemble ? N'hésitez pas à m'expliquer votre projet ou à m'adresser vos questionnements.
+                    Envie de travailler ensemble ? N'hésitez pas à me partager vos attentes et nous arriverons ensemble à une solution optimale.
                 </div>
                 <a href="mailto:vincent.pastor.pro@gmail.com" className="landing__contact__button">
                     <div className="landing__contact__button__logo">

@@ -59,7 +59,7 @@
         justify-content: center;
         padding: 40px 0px 200px 0px;
         @include smartphone {
-            padding: 20px 0px 100px 0px;
+            padding: 20px 20px 100px 20px;
         }
         & h2 {
             font-size: 3vh;
@@ -155,7 +155,6 @@
                 font-weight: 400;
                 text-align: center;
                 margin-bottom: 20px;
-                height: 150px;
                 @include smartphone {
                     height: auto;
                     margin-bottom: 0px;
@@ -178,10 +177,12 @@
                     justify-content: center;
                     margin-left: 0;
                     padding-left: 0;
+                    text-align: center;
                     & li {
                         list-style: none;
                         margin-left: 0;
                         padding-left: 0;
+                        text-align: center;
                     }
                 }
             }
