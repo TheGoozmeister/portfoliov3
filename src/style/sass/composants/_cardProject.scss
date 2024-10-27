@@ -13,9 +13,10 @@
     text-align: center;
     @include smartphone {
         width: 100%;
-        margin: 10px 0px 10px 0px;
+        margin: 10px 0px 50px 0px;
         border-radius: 0;
-        background-size: contain;
+        background-size: cover;
+        border: 1px solid $color-tertiary;
     }
     &__content__description {
         margin-bottom: 20px;

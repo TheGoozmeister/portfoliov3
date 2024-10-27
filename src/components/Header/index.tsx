@@ -2,11 +2,13 @@ import { useState, useEffect } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { Link, useLocation } from 'react-router-dom';  // Importation de Link et useLocation
+import { useNavigate } from 'react-router-dom';
 
 const logo = require('../../assets/logo.png');
 
 function Header(): JSX.Element {
 
+    const navigate = useNavigate();
     const [showMenu, setShowMenu] = useState(true);
     const location = useLocation();  // Utilisation du hook useLocation pour connaître la page actuelle
 
@@ -32,14 +34,18 @@ function Header(): JSX.Element {
     };
 
     const handleNavigation = (anchor: string) => {
-        setShowMenu(false);  
+        if (window.innerWidth <= 1224) {
+            setShowMenu(false);
+        }
+    
         if (location.pathname !== '/') {
-            window.location.href = `/#${anchor}`;
+            navigate(`/#${anchor}`);  // Utilisation de navigate pour changer la page sans recharger
         } else {
             const element = document.getElementById(anchor);
             element?.scrollIntoView({ behavior: 'smooth' });
         }
     };
+    
 
     return (
         <header className="header">

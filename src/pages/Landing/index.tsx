@@ -25,7 +25,7 @@ function Landing () : JSX.Element {
             </div>
             <div className="landing__presentation" id='skills'>
                 <div className="landing__presentation__title">
-                    <h2>Je suis Vincent Pastor, enchanté.</h2>
+                    <h2>Je suis Vincent Pastor, bienvenue !</h2>
                 </div>
                 <div className="landing__presentation__text">
                     Après une première vie artistique partagée entre création et transmission, je consacre depuis maintenant trois ans mon temps 

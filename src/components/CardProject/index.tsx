@@ -2,11 +2,13 @@ import React, { useState } from 'react';
 import Button from '../Button';
 import { useNavigate } from 'react-router-dom';
 
+
 function CardProject({ title, description, image, id }: { title: string, description: string, image: string, id: string }) {
     
     const [isHovered, setIsHovered] = useState(false);
     const imgSrc = require(`../../assets/img/${image}`);
     const navigate = useNavigate();
+    
     return (
         <div 
             className="cardProject"
