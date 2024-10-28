@@ -1,5 +1,33 @@
 [
     {
+        "id": 18,
+        "title": "Télécommande Luminaires",
+        "cover": "ble.png",
+        "description": {
+            "eng" : "Designing a tutoring application",
+            "fr": "Application mobile Bluetooth Low Energy de gestion de luminaires "
+        },
+        "technos": [
+            "HTML/CSS",
+            "JAVASCRIPT",
+            "REACT",
+            "NODEJS",
+            "EXPRESS",
+            "POSTGRESQL"
+        ],
+        "tools" : [
+            "GIT",
+            "SASS",
+            "CAPACITOR",
+            "BLUETOOTH LOW ENERGY"
+        ],
+        "summary": {
+            "eng" : "A React application utilizing API calls and the Recharts library for creating charts.",
+            "fr": "Conception et développement d'une application mobile pour la gestion à distance de luminaires. L'objectif était de permettre le contrôle d'un parc de luminaires via smartphone, avec la réception régulière des informations de chaque appareil et la possibilité d'effectuer diverses actions sur ceux-ci. La communication entre la télécommande physique et le smartphone de l'utilisateur a été assurée par la technologie Bluetooth Low Energy."
+        },
+        "projectLink" : "https://github.com/TheGoozmeister/p12"
+    },
+    {
         "id": 1,
         "title": "Beber",
         "cover": "beber.png",
@@ -25,10 +53,101 @@
         ],
         "summary": {
             "eng" : "Béber is a mobile-first application designed to assist in event organization. It allows multiple users to create and join events, suggest accommodations using links from platforms like Airbnb, and vote on the stay location. The frontend is built with React, the backend with Node.js, and the database with MySQL. Docker was used for deploying the first test version.",
-            "fr": "Béber est une application mobilefirst accompagnatrice d'organisation d'évènements. Elle permet à plusieurs personnes de créer et de rejoindre un évènement, de proposer des logements à partir de liens d'annonces type airbnb, et de voter pour le lieu de séjour. Le front est en React, le back en NodeJS, la base de données en MYSQL. Docker a été utilisé pour le déploiement de la première version de test."
+            "fr": "Béber est une application mobilefirst accompagnatrice d'organisation d'événements. Elle permet à plusieurs personnes de créer et de rejoindre un événement, de proposer des logements à partir de liens d'annonces type airbnb, et de voter pour le lieu de séjour. Le front est en React, le back en NodeJS, la base de données en MYSQL. Docker a été utilisé pour le déploiement de la première version de test."
         },
         "projectLink" : "https://github.com/TheGoozmeister/b-ber"
     },
+    {
+        "id": 12,
+        "title": "SportSee",
+        "cover": "sportsee.png",
+        "description": {
+            "eng" : "Designing a tutoring application",
+            "fr": "Conception d'une application pour le soutien scolaire"
+        },
+        "technos": [
+            "HTML/CSS",
+            "JAVASCRIPT",
+            "REACT"
+        ],
+        "tools" : [
+            "GIT",
+            "SASS",
+            "RECHARTS"
+        ],
+        "summary": {
+            "eng" : "A React application utilizing API calls and the Recharts library for creating charts.",
+            "fr": "Projet d’affichage graphique de données d’API. La librairie Recharts a été utilisée pour réaliser l’ensemble des diagrammes, en approfondissant la customisation de chacun. "
+        },
+        "projectLink" : "https://github.com/TheGoozmeister/p12"
+    },
+    {
+        "id": 10,
+        "title": "FishEye",
+        "cover": "fisheye.png",
+        "description": {
+            "eng" : "Photographer's advertisement website optimized for accessibility",
+            "fr": "Site d'annonces de photographes optimisé pour l'accessibilité"
+        },
+        "technos": [
+            "HTML/CSS",
+            "JAVASCRIPT"
+        ],
+        "tools" : [
+            "GIT",
+            "SASS",
+            "ACCESSIBILITY"
+        ],
+        "summary": {
+            "eng" : "The challenge of this project was to create a fully accessible website, allowing keyboard navigation and compatible with the devices of visually impaired individuals. It was implemented using vanilla JavaScript.",
+            "fr": "L'enjeu de ce projet était d'avoir un site entièrement accessible, permettant la navigation au clavier et compatible avec les dispositifs des personnes mal voyantes. Il a été réalisé en Javascript vanilla."
+        },
+        "projectLink" : "https://github.com/TheGoozmeister/p6"
+    },
+    {
+        "id": 4,
+        "title": "Kasa",
+        "cover": "kasa.png",
+        "description": {
+            "eng" : "React application for housing listings",
+            "fr": "Application React de proposition de logements"
+        },
+        "technos": [
+            "HTML/CSS",
+            "JAVASCRIPT",
+            "REACT"
+        ],
+        "tools" : [
+            "GIT",
+            "SASS"
+        ],
+        "summary": {
+            "eng" : "First React project completed. The application is a website similar to Airbnb, where multiple accommodations are offered based on provided data. A carousel component was notably developed in this project.",
+            "fr": "Projet réalisé en React. L'application est un site type airbnb, où plusieurs logements sont proposés à partir de datas d’API fournies. L’objectif était ici de décomposer l’application en un maximum de composants modulables réutilisables, tels que des carrousels ou des collapses. "        },
+        "projectLink" : "https://github.com/TheGoozmeister/Kasa"
+    },{
+        "id": 5,
+        "title": "Les Petits Plats",
+        "cover": "petitsPlats.png",
+        "description": {
+            "eng" : "Cooking recipe search application",
+            "fr": "Application de recherche de recettes de cuisine"
+        },
+        "technos": [
+            "HTML/CSS",
+            "JAVASCRIPT"
+        ],
+        "tools": [
+            "GIT",
+            "SASS"
+        ],
+        "summary": {
+            "eng" : "Project implemented in vanilla JavaScript. The objective here was to create a search algorithm in multiple ways and compare their performances.",
+            "fr": "Projet réalisé en Javascript vanilla. L'objectif ici était de réaliser un algorithme de recherche de plusieurs manières et d'en comparer les performances. Cela m’a permis d’explorer de nombreuses méthodes Javascript et de fortement renforcer ma logique algorithmique."
+        },
+        "projectLink" : "https://github.com/TheGoozmeister/p7"
+    },
+    
     {
         "id": 2,
         "title": "ArgentBank",
@@ -74,49 +193,6 @@
             "fr": "Application de ressources humaines à débugguer et à tester. La mise en place de test unitaires et de tests End to End on été mis en place, en utilisant Jest."
         },
         "projectLink" : "https://github.com/TheGoozmeister/p9"
-    },{
-        "id": 4,
-        "title": "Kasa",
-        "cover": "kasa.png",
-        "description": {
-            "eng" : "React application for housing listings",
-            "fr": "Application React de proposition de logements"
-        },
-        "technos": [
-            "HTML/CSS",
-            "JAVASCRIPT",
-            "REACT"
-        ],
-        "tools" : [
-            "GIT",
-            "SASS"
-        ],
-        "summary": {
-            "eng" : "First React project completed. The application is a website similar to Airbnb, where multiple accommodations are offered based on provided data. A carousel component was notably developed in this project.",
-            "fr": "Premier projet réalisé en React. L'application est un site type airbnb, où plusieurs logements sont proposés à partir de datas fournies. Un composant carrousel a notamment été développé dans ce projet. "
-        },
-        "projectLink" : "https://github.com/TheGoozmeister/Kasa"
-    },{
-        "id": 5,
-        "title": "Les Petits Plats",
-        "cover": "petitsPlats.png",
-        "description": {
-            "eng" : "Cooking recipe search application",
-            "fr": "Application de recherche de recettes de cuisine"
-        },
-        "technos": [
-            "HTML/CSS",
-            "JAVASCRIPT"
-        ],
-        "tools": [
-            "GIT",
-            "SASS"
-        ],
-        "summary": {
-            "eng" : "Project implemented in vanilla JavaScript. The objective here was to create a search algorithm in multiple ways and compare their performances.",
-            "fr": "Projet réalisé en Javascript vanilla. L'objectif ici était de réalisé un algorithme de recherche de plusieurs manières et d'en comparer les performances."
-        },
-        "projectLink" : "https://github.com/TheGoozmeister/p7"
     },{
         "id": 6,
         "title": "Portfolio V1",
@@ -208,29 +284,6 @@
         },
         "projectLink" : "https://github.com/TheGoozmeister/p4"
     },{
-        "id": 10,
-        "title": "FishEye",
-        "cover": "fisheye.png",
-        "description": {
-            "eng" : "Photographer's advertisement website optimized for accessibility",
-            "fr": "Site d'annonces de photographes optimisé pour l'accessibilité"
-        },
-        "technos": [
-            "HTML/CSS",
-            "SASS",
-            "JAVASCRIPT"
-        ],
-        "tools" : [
-            "GIT",
-            "SASS",
-            "ACCESSIBILITY"
-        ],
-        "summary": {
-            "eng" : "The challenge of this project was to create a fully accessible website, allowing keyboard navigation and compatible with the devices of visually impaired individuals. It was implemented using vanilla JavaScript.",
-            "fr": "L'enjeu de ce projet était d'avoir un site entièrement accessible, permettant la navigation au clavier et compatible avec les dispositifs des personnes mal voyantes. Il a été réalisé en Javascript vanilla."
-        },
-        "projectLink" : "https://github.com/TheGoozmeister/p6"
-    },{
         "id": 11,
         "title": "Learn@Home",
         "cover": "learnathome.png",
@@ -250,30 +303,6 @@
             "fr": "A partir d'un cahier des charges, l'enjeu de ce projet était d'établir les user stories, les maquettes du site à l'aide de Figma, des diagrammes de cas d'usage et un Kanban découpant le projet de manière macro."
         },
         "projectLink" : "#"
-    },{
-        "id": 12,
-        "title": "SportSee",
-        "cover": "sportsee.png",
-        "description": {
-            "eng" : "Designing a tutoring application",
-            "fr": "Conception d'une application pour le soutien scolaire"
-        },
-        "technos": [
-            "HTML/CSS",
-            "SASS",
-            "JAVASCRIPT",
-            "REACT"
-        ],
-        "tools" : [
-            "GIT",
-            "SASS",
-            "RECHARTS"
-        ],
-        "summary": {
-            "eng" : "A React application utilizing API calls and the Recharts library for creating charts.",
-            "fr": "Application React utilisant des appels API et la librairie Recharts pour la réalisation des graphiques."
-        },
-        "projectLink" : "https://github.com/TheGoozmeister/p12"
     },{
         "id": 13,
         "title": "La Panthere",

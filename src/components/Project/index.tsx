@@ -56,7 +56,7 @@ function Project() : JSX.Element {
                                 <div key={tool} className="project__tool">{tool}</div>)}
                         </div>
                     </div>
-                    <Button onClick={() => window.open(project.projectLink, '_blank')}>Voir le projet</Button>
+                    {/* <Button onClick={() => window.open(project.projectLink, '_blank')}>Voir le projet</Button> */}
                 </div>
                 <div className="project__images">
                     <img src={require(`../../assets/img/${project.cover}`)} alt={project.title} />
