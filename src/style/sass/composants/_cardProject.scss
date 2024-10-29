@@ -19,6 +19,9 @@
         border: 1px solid $color-tertiary;
     }
     &__content__description {
+        width: 80%;
+        margin: auto;
+        text-align: center;
         margin-bottom: 20px;
     }
 }

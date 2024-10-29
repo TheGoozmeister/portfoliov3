@@ -63,7 +63,7 @@
         "cover": "sportsee.png",
         "description": {
             "eng" : "Designing a tutoring application",
-            "fr": "Conception d'une application pour le soutien scolaire"
+            "fr": "Affichage graphique de données sportives"
         },
         "technos": [
             "HTML/CSS",
