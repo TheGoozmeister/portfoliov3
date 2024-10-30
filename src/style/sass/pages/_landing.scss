@@ -82,6 +82,9 @@ body {
             font-weight: 700;
             @include smartphone {
                 font-size: 2.5vh;
+                text-align: center;
+                width: 95%;
+                
             }
         }
         &__text {
