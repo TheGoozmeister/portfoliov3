@@ -151,7 +151,7 @@ function Landing () : JSX.Element {
                         key={project.id}
                         title={project.title}
                         description={project.description.fr}
-                        image={project.cover}
+                        media={project.cover}
                         id={project.id.toString()}
                     />
                     ))}

@@ -2,7 +2,7 @@
     {
         "id": 18,
         "title": "Télécommande Luminaires",
-        "cover": "ble.png",
+        "cover": "luminaire.png",
         "description": {
             "eng" : "Designing a tutoring application",
             "fr": "Application mobile Bluetooth Low Energy de gestion de luminaires "
@@ -30,7 +30,8 @@
     {
         "id": 1,
         "title": "Beber",
-        "cover": "beber.png",
+        "cover": "beber.mp4",
+        "image": "beber.png",
         "description": {
             "eng" : "Full-stack application for event organization",
             "fr": "Application fullstack d'oranisation d'évènements"
@@ -60,7 +61,8 @@
     {
         "id": 12,
         "title": "SportSee",
-        "cover": "sportsee.png",
+        "cover": "sportsee.mp4",
+        "image": "sportsee.png",
         "description": {
             "eng" : "Designing a tutoring application",
             "fr": "Affichage graphique de données sportives"
@@ -84,7 +86,8 @@
     {
         "id": 10,
         "title": "FishEye",
-        "cover": "fisheye.png",
+        "cover": "accessible.mp4",
+        "image": "fisheye.png",
         "description": {
             "eng" : "Photographer's advertisement website optimized for accessibility",
             "fr": "Site d'annonces de photographes optimisé pour l'accessibilité"
@@ -107,7 +110,8 @@
     {
         "id": 4,
         "title": "Kasa",
-        "cover": "kasa.png",
+        "cover": "kasa.mp4",
+        "image": "kasa.png",
         "description": {
             "eng" : "React application for housing listings",
             "fr": "Application React de proposition de logements"
@@ -128,7 +132,8 @@
     },{
         "id": 5,
         "title": "Les Petits Plats",
-        "cover": "petitsPlats.png",
+        "cover": "food.mp4",
+        "image": "petitsPlats.png",
         "description": {
             "eng" : "Cooking recipe search application",
             "fr": "Application de recherche de recettes de cuisine"

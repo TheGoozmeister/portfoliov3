@@ -1,16 +1,19 @@
 .cardProject {
     width: 500px;
     height: 300px;
-    background-size: cover;
-    background-position: center;
     border-radius: 20px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     margin: 20px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+    position: relative; // Important pour superposer le contenu
+    overflow: hidden;
+
+    background-size: cover;
+    background-position: center;
+
     @include smartphone {
         width: 100%;
         margin: 10px 0px 50px 0px;
@@ -18,10 +21,36 @@
         background-size: cover;
         border: 1px solid $color-tertiary;
     }
-    &__content__description {
-        width: 80%;
-        margin: auto;
+
+    &__media {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; // Assure que la vidéo ou l'image occupe tout l'espace sans déformation
+        border-radius: 20px; // Pour respecter le style de la carte
+        background-size: cover;
+        background-position: center;
+        position: absolute; // S'assure que la vidéo ou image est en fond
+        top: 0;
+        left: 0;
+        @include smartphone {
+            border-radius: 0;
+        }
+    }
+
+    &__content {
+        position: relative;
+        z-index: 1; // Pour que le contenu apparaisse au-dessus de la vidéo/image
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         text-align: center;
-        margin-bottom: 20px;
+
+        &__description {
+            width: 80%;
+            margin: auto;
+            text-align: center;
+            margin-bottom: 20px;
+        }
     }
 }

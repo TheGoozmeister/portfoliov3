@@ -59,7 +59,7 @@ function Project() : JSX.Element {
                     {/* <Button onClick={() => window.open(project.projectLink, '_blank')}>Voir le projet</Button> */}
                 </div>
                 <div className="project__images">
-                    <img src={require(`../../assets/img/${project.cover}`)} alt={project.title} />
+                    <img src={require(`../../assets/img/${project.image}`)} alt={project.title} />
                 </div>
             </div>
             <div className="landing__contact" id="contact">
