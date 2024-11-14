@@ -55,6 +55,8 @@ function Landing () : JSX.Element {
                             <li>React/Redux</li>
                             <li>Sass</li>
                             <li>Bootstrap</li>
+                            <li>Material UI</li>
+                            <li>Tailwind</li>
                             <li>Rechart</li>
                             <li>Android Studio</li>
                         </ul>
@@ -77,8 +79,10 @@ function Landing () : JSX.Element {
                         <ul>
                             <li>NodeJS</li>
                             <li>Express</li>
+                            <li>Python</li>
                             <li>Django</li>
                             <li>PHP</li>
+                            <li>Wordpress</li>
                             <li>PostgreSQL</li>
                             <li>MySQL</li>
                             <li>MongoDB</li>
@@ -119,7 +123,7 @@ function Landing () : JSX.Element {
                         <h3>Soft Skills</h3>
                     </div>
                     <div className="landing__skills__section__description">
-                        Au travers de mes différentes expériences professionnelles et personnelles, j'ai développé des compétences individuelles et collectives qui me permettent d'être un élément pertinent au sein d'une équipe.
+                        Elément efficace dans une équipe, je suis à l'écoute et force de propositions. Je sais proposer des solutions pertinentes en remettant en question celles existantes pour avancer ensemble.
                     </div>
                     <div className="landing__skills__section__listTitle">
                         <h4>Compétences</h4>
