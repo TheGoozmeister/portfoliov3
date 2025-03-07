@@ -17,8 +17,8 @@ function CardProject({ title, description, media, id }: { title: string, descrip
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
             style={{
-                backgroundColor: isHovered ? 'white' : 'transparent', // Fond blanc au survol
-                backgroundImage: !isVideo && !isHovered ? `url(${mediaSrc})` : 'none' // Image en fond si ce n'est pas une vidéo et pas de survol
+                backgroundColor: isHovered ? 'white' : 'transparent', 
+                backgroundImage: !isVideo && !isHovered ? `url(${mediaSrc})` : 'none' 
             }}
         >
             {isVideo && !isHovered && (

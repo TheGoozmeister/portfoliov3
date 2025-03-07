@@ -3,6 +3,7 @@
         "id": 18,
         "title": "Télécommande Luminaires",
         "cover": "luminaire.png",
+        "image": "luminaire.png",
         "description": {
             "eng" : "Designing a tutoring application",
             "fr": "Application mobile Bluetooth Low Energy de gestion de luminaires "

@@ -54,6 +54,7 @@ function Landing () : JSX.Element {
                             <li>TypeScript</li>
                             <li>React/Redux</li>
                             <li>Sass</li>
+                            <li>Chakra UI</li>
                             <li>Bootstrap</li>
                             <li>Material UI</li>
                             <li>Tailwind</li>
@@ -80,9 +81,11 @@ function Landing () : JSX.Element {
                             <li>NodeJS</li>
                             <li>Express</li>
                             <li>Python</li>
+                            <li>FastAPI</li>
                             <li>Django</li>
                             <li>PHP</li>
                             <li>Wordpress</li>
+                            <li>Graphql</li>
                             <li>PostgreSQL</li>
                             <li>MySQL</li>
                             <li>MongoDB</li>
@@ -104,8 +107,9 @@ function Landing () : JSX.Element {
                     </div>
                     <div className="landing__skills__section__list">
                         <ul>
-                            <li>Git/Github</li>
+                            <li>Git/Github/Gitlab</li>
                             <li>Docker</li>
+                            <li>Jira</li>
                             <li>Figma</li>
                             <li>Capacitor</li>
                             <li>Linux</li>
